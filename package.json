@@ -1,0 +1,18 @@
+{
+  "name": "clever",
+  "version": "1.0.0",
+  "description": "prueba qa automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node postman/newman",
+    "prepare": "husky install"
+  },
+  "author": "lucjs",  
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^7.0.0",   
+    "newman": "^5.3.1",
+    "newman-reporter-htmlextra": "^1.22.7",
+    "npm": "^8.5.1"
+  }
+}
